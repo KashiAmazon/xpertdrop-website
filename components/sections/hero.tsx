@@ -7,14 +7,19 @@ import GrowthLine from "@/components/ui/growth-line";
 
 export default function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden bg-primary pt-32 pb-24 sm:pt-40 sm:pb-32">
-      {/* Ambient gradient background */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-40 left-1/4 h-[520px] w-[520px] rounded-full bg-secondary/30 blur-[120px]" />
-        <div className="absolute bottom-0 right-0 h-[420px] w-[420px] rounded-full bg-accent/20 blur-[130px]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.08)_1px,transparent_0)] [background-size:32px_32px] opacity-40" />
-      </div>
+<section
+  id="top"
+  className="relative overflow-hidden bg-white pt-28 pb-24 sm:pt-36 sm:pb-28"
+>
+  {/* Ambient gradient background */}
+      <div className="absolute inset-0 overflow-hidden">
 
+<div className="absolute -top-20 -right-20 h-96 w-96 rounded-full bg-blue-100 blur-3xl opacity-60" />
+
+<div className="absolute bottom-0 -left-20 h-80 w-80 rounded-full bg-orange-100 blur-3xl opacity-60" />
+
+</div>
+  
       <div className="container-xd relative grid items-center gap-16 lg:grid-cols-[1.05fr_0.95fr]">
         {/* Copy */}
         <div>
