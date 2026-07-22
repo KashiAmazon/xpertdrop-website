@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight, ShieldCheck, TrendingUp, Users } from "lucide-react";
 import Button from "@/components/ui/button";
@@ -87,16 +87,14 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/10 to-white/[0.02]"
           >
-            {/* Founder image placeholder */}
-            <div className="flex h-full w-full flex-col items-center justify-end">
-              <svg viewBox="0 0 200 240" className="h-[92%] w-auto text-white/15" fill="currentColor">
-                <circle cx="100" cy="70" r="42" />
-                <path d="M20 240c0-55 36-100 80-100s80 45 80 100" />
-              </svg>
-            </div>
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full bg-black/30 px-4 py-1.5 text-xs font-medium text-white/60 backdrop-blur">
-              Founder photo placeholder
-            </div>
+           {/* Founder image placeholder */}
+          <Image
+  src="/founder.png"
+  alt="Founder"
+  fill
+  className="object-cover rounded-[2rem]"
+/>
+            
           </motion.div>
 
           {/* Floating stat cards */}
