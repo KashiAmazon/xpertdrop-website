@@ -27,7 +27,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-accent"
+            className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-blue-700""
           >
             Amazon &amp; eBay Growth Partner
           </motion.span>
@@ -36,7 +36,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="mt-6 text-4xl font-bold leading-[1.1] text-white sm:text-5xl lg:text-[3.4rem]"
+            className="mt-6 text-4xl font-extrabold leading-[1.1] text-slate-900 sm:text-5xl lg:text-6xl""
           >
             Scale your Amazon &amp; eBay business with a{" "}
             <span className="text-gradient">dedicated growth team</span>
@@ -46,7 +46,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="mt-6 max-w-xl text-base leading-relaxed text-white/70 sm:text-lg"
+            className="mt-6 max-w-xl text-lg leading-8 text-slate-600""
           >
             XpertDrop helps Amazon sellers, eBay sellers, and private label brands across the
             US, UK, Canada, Australia, and Europe grow with structured strategy, hands-on
@@ -78,7 +78,7 @@ export default function Hero() {
             className="mt-12 flex items-center gap-6"
           >
             <GrowthLine className="h-14 w-40" />
-            <p className="text-sm text-white/50">
+            <p className="text-sm text-slate-500"">
               Consistent, data-driven growth across every account we manage.
             </p>
           </motion.div>
@@ -90,7 +90,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/10 to-white/[0.02]"
+            className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[2rem] bg-gradient-to-br from-blue-600 via-blue-500 to-orange-500 p-2 shadow-2xl""
           >
            {/* Founder image placeholder */}
           <Image
